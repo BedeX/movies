@@ -31,7 +31,7 @@ export const Header = () => {
                     </div>
                     {/* mobil menü sor */}
                     {menuOpen && (
-                        <div className='flex flex-col items-end gap-2 py-4 bg-gray-900 shadow-amber-200 shadow-md rounded-3xl p min-[560px]:hidden'>
+                        <div className='mt-2 flex flex-col items-end gap-2 py-4 pr-2 bg-gray-900 shadow-amber-200 shadow-md rounded-3xl min-[560px]:hidden'>
                             <NavLink to='/' className={navLinkClass}>Kezdőlap</NavLink>
                             <NavLink to='/movies' className={navLinkClass}>Filmek</NavLink>
                             <NavLink to='/tv' className={navLinkClass}>Sorozatok</NavLink>
